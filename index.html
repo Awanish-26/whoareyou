@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who are you</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        input{
+            height: 36px;
+            width: 100%;
+            border-radius: 6px;
+        }
+        input::placeholder{
+            content: "why";
+        }
+        input:focus{
+            border: 0;
+            outline: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container h-screen flex items-center justify-center">
+        <div class="box w-80 aspect-video bg-purple-800 border-2 border-rose-300 rounded-md p-4 flex items-center justify-center flex-col">
+            <p class="text-sky-400 text-2xl mb-12" id="question">
+                Are you gay ?
+            </p>
+            <div class="">
+                <button id="yes" class="px-3 py-1 border border-1 mx-4 rounded">Yes</button>
+                <button id="no" class="px-3 py-1 border border-1 mx-4 rounded">No</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
