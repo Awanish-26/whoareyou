@@ -25,7 +25,7 @@ no.addEventListener('click',function sun(){
     inputElement.type = "text";
     inputElement.id = "myInput";
     inputElement.name = "myInput";
-    parent.appendChild(inputElement)
+    parent.appendChild(inputElement);
 
 });
 
@@ -44,7 +44,7 @@ yes.addEventListener('click',function sun(){
     inputElement.id = "myInput";
     inputElement.name = "myInput";
     inputElement.placeholder = "why ?";
-    inputElement.classList = "px-4 py-2"
-    parent.appendChild(inputElement)
+    inputElement.classList = "px-4 py-2";
+    parent.appendChild(inputElement);
 });
 
