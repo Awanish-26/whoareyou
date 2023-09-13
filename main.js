@@ -30,8 +30,8 @@ bothBtns.forEach(function(button) {
         inputElement.type = "text";
         inputElement.id = "myInput";
         inputElement.name = "myInput";
-        inputElement.placeholder = "why ?";
-        inputElement.classList = "px-3 py-2 w-9/12";
+        inputElement.placeholder = "Why ?";
+        inputElement.classList = "px-3 py-2 w-9/12 h-10 border border-1 border-purple-500 rounded";
         parent.appendChild(inputElement);
     });
 });
