@@ -13,9 +13,7 @@
             height: 36px;
             width: 100%;
             border-radius: 6px;
-        }
-        input::placeholder{
-            content: "why";
+            caret-color: blueviolet;
         }
         input:focus{
             border: 0;
@@ -25,13 +23,13 @@
 </head>
 <body>
     <div class="container h-screen flex items-center justify-center">
-        <div class="box w-80 aspect-video bg-purple-800 border-2 border-rose-300 rounded-md p-4 flex items-center justify-center flex-col">
-            <p class="text-sky-400 text-2xl mb-12" id="question">
+        <div class="box w-96 aspect-video bg-purple-800 border-2 border-rose-300 rounded-md p-4 flex items-center justify-center flex-col">
+            <p class="text-sky-400 text-4xl mb-12" id="question">
                 Are you gay ?
             </p>
-            <div class="">
-                <button id="yes" class="px-3 py-1 border border-1 mx-4 rounded">Yes</button>
-                <button id="no" class="px-3 py-1 border border-1 mx-4 rounded">No</button>
+            <div class="btns">
+                <button id="yes" class="px-3 py-1 border border-1 mx-4 rounded text-xl">Yes</button>
+                <button id="no"  class="px-3 py-1 border border-1 mx-4 rounded text-xl">No</button>
             </div>
         </div>
     </div>
